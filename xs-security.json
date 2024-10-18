@@ -1,0 +1,18 @@
+{
+  "xsappname": "HanaDevApp",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Admin"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [],
+  "oauth2-configuration": {
+    "redirect-uris": [
+      "https://google.com/"
+    ]
+  },
+  "authorities-inheritance": false
+}
